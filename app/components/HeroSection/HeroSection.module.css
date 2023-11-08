@@ -1,0 +1,44 @@
+.main_container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.picture_section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello_section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    font-size: 26px;
+}
+
+.hello_content {
+    margin: 20px;
+}
+
+#handle {
+    width: 40%;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#greeting {
+    background-color: #f7f6f3;
+    border-radius: 20px;
+    width: 45%;
+    padding: 10px;
+}
+
+.hello_content_item {
+    padding: 10px;
+}
+
